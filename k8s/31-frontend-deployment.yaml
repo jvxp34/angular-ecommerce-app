@@ -18,8 +18,8 @@ spec:
     spec:
       containers:
         - name: web
-          image: frontend:dev
-          imagePullPolicy: Never
+          image: jvxp34/frontend:dev
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
           readinessProbe:

@@ -18,8 +18,8 @@ spec:
     spec:
       containers:
         - name: app
-          image: backend:dev
-          imagePullPolicy: Never
+          image: jvxp34/backend:dev
+          imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 3000
           env:
